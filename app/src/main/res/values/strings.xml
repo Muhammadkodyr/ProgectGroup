@@ -9,4 +9,10 @@
     <string name="anth">You can learn anything</string>
     <string name="supp">E-demy supports many artists though the world.</string>
     <string name="saved">Saved</string>
+    <string name="math">Math</string>
+    <string name="physics">Physics</string>
+    <string name="chemistry">Chemistry</string>
+    <string name="art">art</string>
+    <string name="languages">Languages</string>
+    <string name="art2">Art</string>
 </resources>
