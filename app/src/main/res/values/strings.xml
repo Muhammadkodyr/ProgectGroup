@@ -15,4 +15,16 @@
     <string name="art">art</string>
     <string name="languages">Languages</string>
     <string name="art2">Art</string>
+    <string name="Select">Select course</string>
+    <string name="home">home</string>
+    <string name="find">find</string>
+    <string name="no_saves">No saves</string>
+    <string name="search">Search</string>
+    <string name="back">back</string>
+    <string name="welcum_2">Welcome</string>
+    <string name="settings">settings</string>
+    <string name="google">Continue with Google</string>
+    <string name="apple">Continue with Apple</string>
+    <string name="facebook">Continue with Facebook</string>
+    <string name="en">English</string>
 </resources>

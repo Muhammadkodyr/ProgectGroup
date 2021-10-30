@@ -2,16 +2,14 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:background="@color/white"
-    android:layout_height="match_parent">
-
+    android:layout_height="match_parent"
+    android:background="@color/white">
     <LinearLayout
         android:id="@+id/ll7"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:orientation="vertical"
-        app:layout_constraintBottom_toTopOf="@+id/ll8"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -25,7 +23,7 @@
             android:gravity="center"
             android:text="@string/welcum"
             android:textColor="@color/black"
-            android:textSize="34dp" />
+            android:textSize="34sp" />
 
         <TextView
             android:id="@+id/txt6"
@@ -36,7 +34,7 @@
             android:gravity="center"
             android:text="@string/here"
             android:textColor="@color/black"
-            android:textSize="14dp" />
+            android:textSize="14sp" />
 
         <LinearLayout
             android:layout_width="370dp"
@@ -45,6 +43,7 @@
             android:gravity="center_horizontal">
 
             <ImageView
+                android:contentDescription="@string/art2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
@@ -59,7 +58,7 @@
             android:gravity="center"
             android:text="@string/anth"
             android:textColor="@color/black"
-            android:textSize="20dp" />
+            android:textSize="20sp" />
 
         <TextView
             android:layout_width="315dp"
@@ -69,20 +68,23 @@
             android:gravity="center"
             android:text="@string/supp"
             android:textColor="@color/black"
-            android:textSize="14dp" />
+            android:textSize="14sp" />
 
         <Button
             android:layout_width="190dp"
-            android:layout_height="wrap_content"
+            android:layout_height="30dp"
             android:layout_marginTop="15dp"
             android:background="@drawable/shape6"
             android:fontFamily="@font/poppins_semibold"
-            android:text="Select course"
+            android:gravity="center"
+            android:text="@string/Select"
             android:textAllCaps="false"
             android:textColor="@color/white"
-            android:textSize="16dp"
-            android:gravity="center"/>
+            android:textSize="16sp" />
     </LinearLayout>
+
+
+
 
     <LinearLayout
         android:id="@+id/ll8"
@@ -90,7 +92,7 @@
         android:layout_height="wrap_content"
         android:gravity="bottom"
         android:orientation="vertical"
-        app:layout_constraintBottom_toTopOf="@+id/ll9"
+        app:layout_constraintBottom_toTopOf="@id/ll9"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
 
@@ -99,7 +101,6 @@
             android:layout_height="1dp"
             android:background="#000000" />
     </LinearLayout>
-
     <LinearLayout
         android:id="@+id/ll9"
         android:layout_width="wrap_content"
@@ -111,27 +112,32 @@
         app:layout_constraintStart_toStartOf="parent">
 
         <ImageButton
+            android:contentDescription="@string/home"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="45dp"
             android:background="@color/white"
-            android:src="@drawable/home"
-            android:tooltipText="home" />
+            android:src="@drawable/home"/>
 
         <ImageButton
+            android:contentDescription="@string/find"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="45dp"
             android:background="@color/white"
-            android:src="@drawable/find"
-            android:tooltipText="find" />
+            android:src="@drawable/find"/>
 
         <ImageButton
+            android:contentDescription="@string/saved"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="45dp"
             android:background="@color/white"
-            android:src="@drawable/saved"
-            android:tooltipText="saved" />
+            android:src="@drawable/saved"/>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
