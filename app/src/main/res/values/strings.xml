@@ -27,4 +27,23 @@
     <string name="apple">Continue with Apple</string>
     <string name="facebook">Continue with Facebook</string>
     <string name="en">English</string>
+    <string name="languages">Languages</string>
+    <string name="english">English</string>
+    <string name="mastery_points">Mastery Points</string>
+    <string name="_0_12_0">0/12 (0%)</string>
+    <string name="basics_1">Basics 1</string>
+    <string name="phrases_and_animals">Phrases and Animals</string>
+    <string name="food_and_family">Food and Family</string>
+    <string name="transport_shopping">Transport/Shopping</string>
+    <string name="basics_2">Basics 2</string>
+    <string name="_0_1">0/1</string>
+    <string name="second_lesson">Second Lesson</string>
+    <string name="first_lesson">First Lesson</string>
+    <string name="intro">Intro</string>
+    <string name="travel_activities">Travel/Activities</string>
+    <string name="at_work_1">At Work 1</string>
+    <string name="hotel">Hotel</string>
+    <string name="irish">Irish</string>
+    <string name="japanese">Japanese</string>
+    <string name="french">French</string>
 </resources>
