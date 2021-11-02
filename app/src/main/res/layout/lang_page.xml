@@ -73,7 +73,7 @@
         <ListView
             android:id="@+id/lv1"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="575dp"
             app:layout_constraintTop_toTopOf="parent"
             android:layout_marginTop="65dp"
             app:layout_constraintEnd_toEndOf="parent"
