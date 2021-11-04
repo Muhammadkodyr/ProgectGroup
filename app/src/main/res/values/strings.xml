@@ -45,4 +45,8 @@
     <string name="irish">Irish</string>
     <string name="japanese">Japanese</string>
     <string name="french">French</string>
+    <string name="es">Spanish</string>
+    <string name="ru">Russian</string>
+    <string name="chi">Chinese</string>
+    <string name="po">Portuguese</string>
 </resources>
